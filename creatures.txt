@@ -1,0 +1,255 @@
+
+###########################
+########## Dawn ###########
+##########################
+
+  "GATEKEEPER"
+    {
+      # Definitions in tiles.txt
+      viewId = { "1d_gatekeeper1" }
+      viewIdUpgrades = { { "1d_gatekeeper2" } { "1d_gatekeeper3" } { "1d_gatekeeper4" } }
+      name = {
+        # The name gets changed appropriately to Keeper and Adventurer
+        name = "gateway"
+        # Definitions in name_generator.h
+        firstNameGen = "FIRST_MALE"
+        # Creature is always referred to as [FirstName] the [Creature name]
+        fullTitle = true
+      }
+      body = {
+        type = FourLegged LARGE
+        weight = 400
+      }
+      cantEquip = true
+      attr = {
+        DAMAGE 1
+        DEFENSE 100
+      }
+    }
+  "WORKER"
+    {
+      viewId = { "1d_worker" }
+      attr = {
+        DAMAGE 1
+        DEFENSE 30 
+      }
+      body = {
+        type = Humanoid LARGE
+      }
+      cantEquip = true
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+      }
+      name = {
+        name = "worker"
+      }
+    }
+"CITIZEN"
+{
+      viewId = { "1d_citizen" }
+      attr = {
+       	    DAMAGE 25
+            DEFENSE 25 
+      }
+      cantEquip = true
+      body = {
+           type = Humanoid MEDIUM
+      }
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+      }
+      maxLevelIncrease = {
+      	   MELEE 4
+      }
+      name = {
+           name = "citizen"
+           firstNameGen = "FIRST_MALE"
+      }
+}
+"ENLISTED"
+{
+      viewId = { "1d_enlisted" }
+      attr = {
+           DAMAGE 20
+           DEFENSE 20 
+      }
+      body = { type = Humanoid MEDIUM }
+      maxLevelIncrease = { MELEE 30 }
+      name = {
+           name = "enlisted"
+           firstNameGen = "FIRST_MALE"
+      }
+}
+"CITIZENARCHER"
+{
+     viewId = { "1d_citizenarcher" }
+     attr = {
+     	  DAMAGE 15
+          DEFENSE 20
+          RANGED_DAMAGE 25
+     }
+      cantEquip = true
+      body = { type = Humanoid MEDIUM }
+      spells = { "citizen arrow" }
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+      }
+      maxLevelIncrease = {
+      	     MELEE 2
+             ARCHERY 4
+      }
+      name = {
+      	     name = "citizen archer"
+             pluralName = "Citizen Archers"
+             firstNameGen = "FIRST_MALE"
+      }
+}
+"ENLISTEDARCHER"
+    {
+      viewId = { "1d_enlistedarcher" }
+      attr = {
+        DAMAGE 10
+        DEFENSE 20
+        RANGED_DAMAGE 20
+      }
+      body = {
+        type = Humanoid MEDIUM
+        }
+      maxLevelIncrease = {
+        MELEE 15
+        ARCHERY 30
+      }
+      name = {
+        name = "enlisted archer"
+        pluralName = "Enlisted Archers"
+        firstNameGen = "FIRST_MALE"
+      }
+    }
+  "CITIZENMAGE"
+    {
+      viewId = { "1d_citizenmage" }
+      attr = {
+        DAMAGE 15
+        DEFENSE 20
+        SPELL_DAMAGE 25 
+      }
+      cantEquip = true
+      body = {
+        type = Humanoid MEDIUM
+      }   
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+	}
+      spells = { "directed blast" "escape" "advanced healing" "fire elemental" }
+      maxLevelIncrease = {
+        MELEE 2
+        SPELL 4
+      }
+      spellSchools = { "mage" "healer" }
+      name = {
+        name = "citizen mage"
+        firstNameGen = "FIRST_MALE"
+      }
+    }
+  "ENLISTEDMAGE"
+    {
+      viewId = { "1d_enlistedmage" }
+      attr = {
+        DAMAGE 10
+        DEFENSE 10
+        SPELL_DAMAGE 20 
+      }
+      body = {
+        type = Humanoid MEDIUM
+      }   
+      maxLevelIncrease = {
+        MELEE 15
+        SPELL 30
+      }
+      spellSchools = { "mage" "healer" }
+      name = {
+        name = "enlisted mage"
+        firstNameGen = "FIRST_MALE"
+      }
+    }
+###########################
+########## Bloodrock Orcs ###########
+##########################
+
+  "BR_KEEPER"
+    {
+      viewId = { "3br_k1" }
+      attr = {
+        DAMAGE 25
+        DEFENSE 20
+	RANGED_DAMAGE 25
+      }
+      body = {
+        type = Humanoid LARGE
+      }
+      name = {
+        name = "bloodrock orc"
+        firstNameGen = "FIRST_MALE"
+        fullTitle = true
+      }
+      viewIdUpgrades = { { "3br_k1" } { "3br_k1" } { "3br_k1" }}
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+      }
+      maxLevelIncrease = {
+        MELEE 20
+	ARCHERY 20
+      }
+    }
+  "BR_ORC"
+    {
+      viewId = { "3br_k1" }
+      attr = {
+        DAMAGE 25
+        DEFENSE 20
+        RANGED_DAMAGE 25
+      }
+      cantEquip = true
+      body = {
+        type = Humanoid MEDIUM
+        }
+      skills = {
+        "DIGGING" 0.6
+        "LABORATORY" 0.6
+        "WORKSHOP" 0.6
+        "FORGE" 0.6
+        "JEWELER" 0.6
+	}
+      maxLevelIncrease = {
+        MELEE 10
+        ARCHERY 10
+      }
+      name = {
+        name = "bloodrock orc"
+        pluralName = "bloodrock orcs"
+        firstNameGen = "FIRST_MALE"
+      }
+    }
+}
+
+

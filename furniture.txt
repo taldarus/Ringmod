@@ -1,0 +1,61 @@
+
+############Dawn#########
+
+  "DTRNMELEE"
+  {
+    name = "Etherial Swordmaster"
+    viewId = { "1d_trnmelee" }
+    blockMovement = true
+    usageType = BuiltinUsageId TRAIN
+    fire = 50
+    canHideHere = true
+    strength = 80
+    maxTraining = {
+      MELEE 50
+    }
+    requiresLight = true
+    destroyFX = { DESTROY_FURNITURE Rgb 120 87 46 255 }
+  }
+  "DTRNRANGE"
+  {
+    name = "Etherial Rangemaster"
+    viewId = { "1d_trnrange" }
+    blockMovement = true
+    noProjectiles = true
+    usageType = BuiltinUsageId ARCHERY_RANGE
+    canHideHere = true
+    strength = 80
+    requiresLight = true
+    destroyFX = { DESTROY_FURNITURE Rgb 120 87 46 255 }
+  }
+  "DTRNSPELL"
+  {
+    name = "Imprisoned Sorcerer"
+    viewId = { "1d_trnspell" }
+    blockMovement = true
+    usageType = BuiltinUsageId STUDY
+    fire = 50
+    canHideHere = true
+    strength = 80
+    maxTraining = {
+      SPELL 50
+    }
+    requiresLight = true
+    destroyFX = { DESTROY_FURNITURE Rgb 120 87 46 255 }
+  }
+  "DSOULSTONE"
+  {
+    name = "Enlisted Soulstone"
+    viewId = { "1d_soulstone" }
+    blockMovement = true
+    usageType = BuiltinUsageId TRAIN
+    fire = 50
+    canHideHere = true
+    strength = 80
+    maxTraining = {
+      MELEE 1
+    }
+    requiresLight = true
+    destroyFX = { DESTROY_FURNITURE Rgb 120 87 46 255 }
+  }
+}

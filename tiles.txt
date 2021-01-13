@@ -1,0 +1,27 @@
+
+######### DAWN ########
+
+ # { "1d_gatekeeper" "@" ColorId PURPLE }
+  { "1d_gatekeeper1" "@" ColorId PURPLE }
+  { "1d_gatekeeper2" "@" ColorId PURPLE }
+  { "1d_gatekeeper3" "@" ColorId PURPLE }
+  { "1d_gatekeeper4" "@" ColorId PURPLE }
+  { "1d_citizen" "@" ColorId PURPLE }
+  { "1d_citizenarcher" "@" ColorId PURPLE }
+  { "1d_citizenmage" "@" ColorId PURPLE }
+  { "1d_enlisted" "@" ColorId PURPLE }
+  { "1d_enlistedarcher" "@" ColorId PURPLE }
+  { "1d_enlistedmage" "@" ColorId PURPLE }
+  { "1d_worker" "@" ColorId PURPLE }
+  { "dawnstone" "@" ColorId PURPLE }
+  { "1d_trnmelee" "@" ColorId PURPLE }
+  { "1d_trnspell" "@" ColorId PURPLE }
+  { "1d_trnrange" "@" ColorId PURPLE }
+  { "1d_soulstone" "@" ColorId PURPLE }
+
+######### Bloodrock Orcs ###########
+# Because it is entirely different from black rocks...
+
+  { "3br_k1" "@" ColorId PURPLE }
+
+

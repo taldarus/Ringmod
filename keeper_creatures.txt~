@@ -1,0 +1,39 @@
+
+"1_Dawn"
+  {
+    creatureId = { "GATEKEEPER" }
+    tribeAlignment = LAWFUL
+    immigrantGroups = {"dawn"}
+    technology = {
+      "alchemy" "advanced alchemy" "alchemical conversion" "humanoid mutation" "beast mutation"
+      "pig breeding" "iron working" "jewellery" "two-handed weapons" "traps" "archery" "sorcery"
+      "advanced sorcery" "magical weapons" "master sorcery" "demonology" "distillation"
+    }
+    initialTech = { "archery" }
+    buildingGroups = {
+      "structure" "doors" "floors" "storage" "zones" "dlibrary" "throne" "beds" "beast_cage" "pigsty" "coffins"
+      "dtraining" "crafting" "laboratory" "jeweller" "poetry" "distillery" "demon_shrine" "prison" "orders"
+      "installations" "magical_installations" "traps"
+    }
+    workshopGroups = { "basic" "traps" }
+    description = "The people of Dawn are a powerful force, and they only grow stronger if you give them the time to develope. Note: Citizens of Dawn cannot improve or equip. Enlisted start weak, but have almost unlimited potential."
+  }
+
+
+"2_Bloodrock Orc"
+  {
+    creatureId = { "BR_KEEPER" }
+    tribeAlignment = LAWFUL
+    immigrantGroups = {"br orcs" "imps"}
+    technology = {
+      "alchemy" "advanced alchemy" "alchemical conversion" "humanoid mutation" "beast mutation"
+      "pig breeding" "iron working" "jewellery" "two-handed weapons" "traps" "archery" "sorcery"
+      "advanced sorcery" "magical weapons" "master sorcery" "demonology" "distillation"
+    }
+    initialTech = { "archery" }
+    buildingGroups = {
+      "structure" "doors" "floors" "storage" "zones" "dlibrary" "throne" "beds" "beast_cage" "pigsty" "coffins"
+      "dtraining" "crafting" "laboratory" "jeweller" "poetry" "distillery" "demon_shrine" "prison" "orders"
+      "installations" "magical_installations" "traps"
+    description = "Testing."
+  }

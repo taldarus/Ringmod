@@ -1,0 +1,9 @@
+"citizen arrow"
+{
+  symbol = "↣"
+  effect = Name "shoot arrow" Damage RANGED_DAMAGE SHOOT
+  range = 10
+  cooldown = 1
+  projectileViewId = {"arrow"}
+  message = "shoot an arrow" "shoots an arrow"
+}

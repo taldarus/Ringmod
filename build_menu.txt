@@ -1,0 +1,22 @@
+
+#########Dawn##########
+
+
+  "dlibrary"
+  {
+    { Furniture {{ "DSOULSTONE" }  "GOLD" 200 }                 "Soulstone"   "Reliquary"  
+        "Train your minions' magical powers here." }
+  }
+  "dtraining"
+  {
+    { Furniture {{ "DTRNMELEE" } "GOLD" 500 }                   "Etherial Swordmaster"      "Training room"
+        "The souls of master swordsmen stand by to impart their knowledge." r {} true  TRAINING_ROOM}
+
+    { Furniture {{ "DTRNRANGE" } "GOLD" 500 }                   "Etherial Rangemaster"        "Training room"
+        "The souls of master archers stand by to impart their knowledge."  }
+
+    { Furniture {{ "DTRNSPELL" }  "GOLD" 500 }                   "Imprisoned Sorcerer"  "Training room"
+        "Troublesome sorcerer imprisoned into a skull. Keep away from women."  }
+  }
+}
+   

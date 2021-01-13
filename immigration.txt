@@ -1,0 +1,74 @@
+
+###################
+
+    "dawn"
+    {
+        {
+          ids = { "WORKER" }
+          traits = { WORKER NO_LIMIT NO_EQUIPMENT }
+          spawnLocation = NearLeader
+          keybinding = CREATE_IMP
+          sound = CREATE_IMP 2
+          noAuto = true
+          initialRecruitment = 4
+          requirements = {
+            { 1 ExponentialCost "GOLD" 30 5 4 }
+          }
+        }
+        {
+          ids = { "CITIZEN" }
+          traits = { FIGHTER WORKER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+        }
+        {
+          ids = { "ENLISTED" }
+          traits = { FIGHTER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+          requirements = {
+            { 0.5 AttractionInfo 1 {FurnitureType "DSOULSTONE"}}
+          }
+        }
+        {
+          ids = { "CITIZENARCHER" }
+          traits = { FIGHTER WORKER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+        }
+        {
+          ids = { "ENLISTEDARCHER" }
+          traits = { FIGHTER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+          requirements = {
+            { 0.5 AttractionInfo 1 {FurnitureType "DSOULSTONE"}}
+          }
+        }
+        {
+          ids = { "CITIZENMAGE" }
+          traits = { FIGHTER WORKER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+        }
+        {
+          ids = { "ENLISTEDMAGE" }
+          traits = { FIGHTER }
+          spawnLocation = NearLeader
+          frequency = 0.7
+          requirements = {
+            { 0.5 AttractionInfo 1 {FurnitureType "DSOULSTONE"}}
+          }
+        }
+    }
+######## BR Orcs##########
+"br orcs"
+    {
+        {
+          ids = { "BR_ORC" }
+          traits = { WORKER FIGHTER }
+          spawnLocation = NearLeader
+        }
+    }		
+
+}

@@ -1,0 +1,37 @@
+
+#########Dawn##########
+
+##### I put this together, but it was before covid and I have no idea anymore.
+#  "dquarters"
+#  {
+#    { Zone QUARTERS1                                           "Quarters 1"        "Quarters"
+#        "Designate separate quarters for chosen minions." q {} true}
+#
+#    { Zone QUARTERS2                                           "Quarters 2"        "Quarters"
+#        "Designate separate quarters for chosen minions."}
+#
+#    { Zone QUARTERS3                                           "Quarters 3"        "Quarters"
+#        "Designate separate quarters for chosen minions."}
+#
+#    { Zone LEISURE                                             "Leisure"           "Quarters"
+#        "Designate leisure zone where minions will hang out when they have nothing to do."}
+#   }
+
+  "dlibrary"
+  {
+    { Furniture {{ "DSOULSTONE" }  "GOLD" 200 }                 "Soulstone"   "Reliquary"  
+        "Train your minions' magical powers here." }
+  }
+  "dtraining"
+  {
+    { Furniture {{ "DTRNMELEE" } "GOLD" 500 }                   "Etherial Swordmaster"      "Training room"
+        "The souls of master swordsmen stand by to impart their knowledge." r {} true  TRAINING_ROOM}
+
+    { Furniture {{ "DTRNRANGE" } "GOLD" 500 }                   "Etherial Rangemaster"        "Training room"
+        "The souls of master archers stand by to impart their knowledge."  }
+
+    { Furniture {{ "DTRNSPELL" }  "GOLD" 500 }                   "Imprisoned Sorcerer"  "Training room"
+        "Troublesome sorcerer imprisoned into a skull. Keep away from women."  }
+  }
+}
+   
